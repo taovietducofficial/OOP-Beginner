@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Point minh họa NHIỀU CONSTRUCTOR cùng tên khác tham số
  * (overloading) và kỹ thuật this(...) — constructor rỗng ủy quyền cho
  * constructor đầy đủ thay vì chép lại code khởi tạo.
- *
  * Tại sao cần học: overloading constructor xuất hiện khắp thư viện chuẩn
  * (new ArrayList<>() / new ArrayList<>(100)). Kỹ thuật this(...) dồn logic
  * khởi tạo về MỘT chỗ — chép code ra nhiều constructor là nguồn bug khi

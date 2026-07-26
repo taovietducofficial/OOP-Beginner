@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Book minh họa GHI ĐÈ toString() — mọi class đều thừa hưởng
  * toString() từ Object, nhưng bản mặc định in "Book@1b6d3586" vô dụng;
  * ghi đè để object tự giới thiệu bằng chuỗi người đọc hiểu được.
- *
  * Tại sao cần học: toString() tốt là công cụ debug số một — log, debugger,
  * thông báo lỗi đều gọi nó. Đây cũng là lần đầu chạm vào khái niệm "ghi đè
  * phương thức thừa hưởng" (@Override) — nền của đa hình ở các tầng sau.

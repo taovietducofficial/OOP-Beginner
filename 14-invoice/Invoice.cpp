@@ -1,11 +1,9 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Invoice minh họa OVERLOAD PHƯƠNG THỨC (method overloading) —
  * hai phương thức cùng tên "addItem" nhưng khác SỐ LƯỢNG tham số; bản ít
  * tham số hơn gọi lại bản đủ tham số với giá trị mặc định, giống cách bài
  * 07 dùng danh sách khởi tạo ủy quyền cho constructor.
- *
  * Tại sao cần học: bài 07 overload CONSTRUCTOR. Overload thường (phương
  * thức không phải constructor) còn phổ biến hơn: người dùng class được
  * chọn gọi bản "rút gọn" khi không cần nêu hết mọi tham số, mà không phải

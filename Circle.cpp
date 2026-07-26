@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Circle làm quen với `static constexpr` (hằng số PI thuộc về CLASS,
  * dùng chung cho mọi object) khác với field thường như `radius` (thuộc về
  * TỪNG object, mỗi object một giá trị riêng).
- *
  * Tại sao cần học: nhầm lẫn giữa static và instance field là lỗi rất phổ biến
  * của người mới, gây ra bug khó tìm (dữ liệu bị "dùng chung" ngoài ý muốn giữa
  * các object). Hiểu đúng khái niệm này là điều kiện bắt buộc trước khi học

@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Counter minh họa object có TRẠNG THÁI (state) thay đổi qua thời
  * gian — mỗi lần gọi increment()/decrement() làm dữ liệu bên trong object đổi,
  * và mỗi object Counter giữ trạng thái độc lập với object khác cùng class.
- *
  * Tại sao cần học: đây là ý tưởng lõi của MỌI object có trạng thái trong thực
  * tế — giỏ hàng, phiên đăng nhập, kết nối mạng. Nếu không hiểu rõ mỗi object
  * có state riêng, độc lập, rất dễ viết bug chia sẻ dữ liệu ngoài ý muốn khi

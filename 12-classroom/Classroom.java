@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Classroom minh họa một class QUẢN LÝ TẬP HỢP nhiều object khác
  * cùng loại (List<Student>) — thêm phần tử, và tính toán tổng hợp
  * (average, top) bằng cách duyệt qua cả tập hợp.
- *
  * Tại sao cần học: dữ liệu thật hiếm khi chỉ có 1 object đơn lẻ — một lớp có
  * nhiều học sinh, một đơn hàng có nhiều sản phẩm, một giỏ hàng có nhiều món.
  * Biết cách một class "chứa nhiều object con" và tổng hợp dữ liệu từ chúng

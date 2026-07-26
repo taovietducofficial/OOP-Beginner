@@ -1,9 +1,7 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Rectangle gói dữ liệu (width, height) và hành vi (area, perimeter)
  * vào chung một class — bài đầu tiên minh họa Class & Object.
- *
  * Tại sao cần học: đây là viên gạch nền của toàn bộ OOP. Mọi hệ thống thực tế
  * (đơn hàng, tài khoản, sản phẩm...) đều được mô hình hóa bằng class/object
  * như thế này. Không nắm chắc bước "gom dữ liệu + hành vi vào 1 class" thì

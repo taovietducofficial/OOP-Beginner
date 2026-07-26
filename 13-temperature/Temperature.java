@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Temperature minh họa STATIC FACTORY METHOD — constructor để
  * private, object chỉ được tạo qua các phương thức static có TÊN RÕ NGHĨA
  * (fromCelsius, fromFahrenheit) thay vì qua "new Temperature(...)" mù mờ.
- *
  * Tại sao cần học: bài 07 overload nhiều constructor cùng tên khi THAM SỐ
  * khác kiểu/số lượng. Nhưng ở đây fromCelsius(double) và fromFahrenheit(double)
  * có CÙNG kiểu tham số (double) — không thể overload constructor vì trùng

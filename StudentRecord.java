@@ -1,9 +1,7 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: StudentRecord có nhiều thuộc tính (name, age, score) và cho thấy
  * một phương thức (summary) gọi lại phương thức khác (isPassed) trên cùng object.
- *
  * Tại sao cần học: dữ liệu thực tế (user, order, product...) luôn có nhiều field
  * liên quan với nhau, và quy tắc nghiệp vụ (vd. "điểm >= 5 là đậu") phải nằm
  * TRONG class, dùng lại qua gọi hàm nội bộ — thay vì lặp lại điều kiện đó ở

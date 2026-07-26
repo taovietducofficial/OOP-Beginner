@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: BankAccount minh họa ĐÓNG GÓI (encapsulation) — số dư để private,
  * mọi thay đổi bắt buộc đi qua deposit/withdraw, nơi các quy tắc nghiệp vụ
  * (tiền > 0, không rút quá số dư) được kiểm tra.
- *
  * Tại sao cần học: đóng gói là trụ cột đầu tiên của OOP. Nếu field để public,
  * bất kỳ dòng code nào cũng có thể gán balance = -1000 và phá hỏng dữ liệu —
  * bug kiểu này cực khó truy vết vì chỗ gãy nằm xa chỗ gán sai.

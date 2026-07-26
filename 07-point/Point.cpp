@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Point minh họa NHIỀU CONSTRUCTOR cùng tên khác tham số
  * (overloading) và constructor ủy quyền (delegating constructor, C++11) —
  * constructor rỗng gọi lại constructor đầy đủ thay vì chép lại code khởi tạo.
- *
  * Tại sao cần học: overloading constructor xuất hiện khắp thư viện chuẩn
  * (std::vector<int> v; / std::vector<int> v(100);). Kỹ thuật ủy quyền dồn
  * logic khởi tạo về MỘT chỗ — chép code ra nhiều constructor là nguồn bug khi

@@ -1,10 +1,8 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Book minh họa cách một object TỰ MÔ TẢ chính nó bằng chuỗi —
  * C++ không có toString() thừa hưởng sẵn như Java, quy ước của C++ là viết
  * hàm toString() + nạp chồng toán tử << để object in thẳng ra std::cout.
- *
  * Tại sao cần học: chuỗi mô tả tốt là công cụ debug số một — log, thông báo
  * lỗi đều cần nó. Đây cũng là lần đầu chạm vào NẠP CHỒNG TOÁN TỬ (operator
  * overloading) — cách C++ cho phép kiểu tự định nghĩa dùng được cú pháp

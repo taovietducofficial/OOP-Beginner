@@ -1,11 +1,9 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Ticket minh họa biến static THAY ĐỔI ĐƯỢC — một bộ đếm duy nhất
  * thuộc về class, mọi lần tạo object đều cộng vào nó; mỗi object chép giá trị
  * bộ đếm tại thời điểm tạo vào id riêng của mình. Dữ liệu class (tổng số vé)
  * và dữ liệu instance (id từng vé) phối hợp với nhau.
- *
  * Tại sao cần học: đây là cơ chế đằng sau id tự tăng của database, số hóa
  * đơn, mã đơn hàng. Đồng thời là bài học về cạm bẫy: static thay đổi được
  * là trạng thái toàn cục — nhiều thread cùng tạo object sẽ cấp trùng id.

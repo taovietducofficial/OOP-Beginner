@@ -1,9 +1,7 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Person minh họa một object nhận OBJECT KHÁC làm tham số
  * (greet(const Person& other)) và gọi phương thức trên object đó (other.getName()).
- *
  * Tại sao cần học: đây là cách các object THỰC SỰ cộng tác với nhau trong hệ
  * thống thực tế — vd. order.applyDiscount(coupon), account.transferTo(otherAccount).
  * Nắm được cách 1 object thao tác dựa trên dữ liệu của object khác là bước đệm

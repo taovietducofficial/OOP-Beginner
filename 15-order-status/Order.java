@@ -1,11 +1,9 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Order minh họa OBJECT CÓ TRẠNG THÁI RỜI RẠC (state machine) —
  * một đơn hàng chỉ được đi qua các bước PENDING -> PAID -> SHIPPED ->
  * DELIVERED theo ĐÚNG THỨ TỰ; mỗi phương thức chuyển trạng thái tự kiểm
  * tra trạng thái hiện tại trước khi cho phép đổi.
- *
  * Tại sao cần học: bài 06 (BankAccount) đóng gói một con SỐ chỉ đổi qua
  * phương thức có validate. Bài này đóng gói một TRẠNG THÁI RỜI RẠC (một
  * trong vài giá trị cố định) — validate ở đây không kiểm tra số, mà kiểm

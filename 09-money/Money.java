@@ -1,11 +1,9 @@
 /*
  * Ngôn ngữ: Java
- *
  * Công dụng: Money minh họa sự khác nhau giữa == (so sánh ĐỊA CHỈ — có phải
  * cùng một object trong bộ nhớ) và equals() (so sánh NỘI DUNG — hai object
  * có cùng giá trị nghiệp vụ không), kèm quy ước bắt buộc: ghi đè equals
  * thì phải ghi đè hashCode.
- *
  * Tại sao cần học: dùng == thay equals là lỗi Java kinh điển nhất — bug
  * chập chờn vì đôi khi hai biến tình cờ trỏ cùng object. Quên hashCode làm
  * object "biến mất" trong HashSet/HashMap.

@@ -1,10 +1,10 @@
 # Ngôn ngữ: Python
-#
+
 # Công dụng: Car minh họa KẾT HỢP (composition) — Car tự tạo ra Engine của
 # riêng mình ngay trong constructor, Engine sống chết theo Car (không object
 # nào khác nắm giữ Engine này). Car "ủy quyền" (delegate) các phương thức
 # start()/is_running() cho engine bên trong thay vì tự làm hết.
-#
+
 # Tại sao cần học: bài 05 cho object khác làm THAM SỐ (aggregation — hai
 # object độc lập, không sở hữu nhau). Bài này khác: Car SỞ HỮU Engine — quan
 # hệ "toàn thể - bộ phận" (whole-part). Đây là cách OOP mô hình hóa vật thật

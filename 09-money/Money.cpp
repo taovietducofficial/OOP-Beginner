@@ -1,12 +1,10 @@
 /*
  * Ngôn ngữ: C++
- *
  * Công dụng: Money minh họa sự khác nhau giữa so sánh ĐỊA CHỈ (&a == &b — có
  * phải cùng một object trong bộ nhớ) và so sánh NỘI DUNG (a == b qua nạp chồng
  * operator== — hai object có cùng giá trị nghiệp vụ không), kèm quy ước đi cùng:
  * muốn bỏ Money vào unordered_set/unordered_map thì phải cung cấp hàm băm
  * (std::hash) nhất quán với operator==.
- *
  * Tại sao cần học: khác Java (== có sẵn nhưng so địa chỉ), C++ KHÔNG tự sinh
  * operator== cho class — quên nạp chồng là code không biên dịch; còn nạp chồng
  * lệch với hàm băm làm object "biến mất" trong unordered_set/unordered_map.
